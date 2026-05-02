@@ -1,21 +1,17 @@
 {
-  "name": "logging_middleware",
+  "name": "logging-middleware",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Reusable logging middleware for campus notification app",
+  "main": "logger.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ts-node test.ts"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
-    "axios": "^1.15.2"
+    "axios": "^1.6.0"
   },
   "devDependencies": {
-    "@types/node": "^25.6.0",
-    "ts-node": "^10.9.2",
-    "typescript": "^6.0.3"
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
   }
 }
